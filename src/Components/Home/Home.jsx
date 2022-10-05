@@ -85,23 +85,19 @@ const Home = () => {
                         {/* once submitted -> handleSubmit is activated */}
                         <input onChange={(e) => { setGrabMorse(e.target.value) }} type="text" placeholder='--.--.--.. ......-..' />
                         {/* onChange gives the ability to retrieve user input from DOM */}
-                        <button type="submit" id='btn'>Submit</button>
+                        <button type="submit">Submit</button>
                         {/* calls our function */}
                     </form>
                 </div>
 
                 <div class="box" id="english">
-                    <h4>English</h4>
 
+                    <h4>English</h4>
                     <p>{translation}</p>
                     {/* passing the useState onto the DOM */}
 
                 </div>
-
             </div>
-
-
-
         </>
     )
 

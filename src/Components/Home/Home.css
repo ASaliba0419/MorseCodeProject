@@ -16,7 +16,7 @@ body {
 
 #english {
     display: inline-block;
-    justify-content: center;
+    
     /* border: 2px solid black; */
     padding: 5em;
 }
@@ -26,7 +26,3 @@ body {
     /* border: 10px solid blue; */
     padding: 5em;
 }
-
-/* #btn {
-
-} */
